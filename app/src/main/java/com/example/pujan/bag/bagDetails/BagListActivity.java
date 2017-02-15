@@ -105,6 +105,7 @@ public class BagListActivity extends AppCompatActivity implements BagViewAdapter
             actionBar.setDisplayShowHomeEnabled(true);
         }
 
+
         recView = (RecyclerView) findViewById(R.id.recView);
 
         recView.setHasFixedSize(true);
