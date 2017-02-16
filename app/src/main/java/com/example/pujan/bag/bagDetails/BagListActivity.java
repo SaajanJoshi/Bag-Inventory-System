@@ -96,9 +96,10 @@ public class BagListActivity extends AppCompatActivity implements BagViewAdapter
             actionBar.setDisplayUseLogoEnabled(true);   // These two are for
             actionBar.setDisplayShowHomeEnabled(true);  // displaying logo in the action bar
             Toast.makeText(this, "Customer id is" + customer_id, Toast.LENGTH_SHORT).show();
-        } else {
+        }
+        else
+        {
             android.support.v7.app.ActionBar actionBar = getSupportActionBar();
-
             actionBar.setLogo(R.drawable.bagsmall);
             actionBar.setTitle(" View Bag");
             actionBar.setDisplayUseLogoEnabled(true);
